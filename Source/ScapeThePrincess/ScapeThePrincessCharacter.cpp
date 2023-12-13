@@ -135,7 +135,7 @@ void AScapeThePrincessCharacter::OnCreateSessionComplete(FName SessionName, bool
 		UWorld* World = GetWorld();
 		if(World)
 		{
-			World->ServerTravel(FString("/Game/Luis/Luis?listen"));
+			World->ServerTravel(FString("/Game/Devs/Luis/Luis?listen"));
 		}
 		else
 		{
